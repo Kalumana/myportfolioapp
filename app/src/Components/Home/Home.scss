@@ -1,0 +1,30 @@
+
+.home-container{
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+max-height: 700px;
+background-color: #181818;
+}
+
+
+.home-scroll{
+    margin-left: 5rem;
+
+    .home-scroll-btn{
+        text-decoration: none;
+    }
+
+    .scroll-icon{
+        animation: scroll 2s ease infinite;
+    }
+
+    .home-scroll-name{
+        color: beige;
+        font-weight: 14px;
+        margin-right: var(--mb-0-25);
+        margin-left: 2px;
+    }
+    
+}
